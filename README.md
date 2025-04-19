@@ -84,7 +84,8 @@ La aplicación se comunica con el mismo servidor que utiliza el sistema QoriPunk
 
 2. **Configuración Inicial**
    - Descargar el codigo fuente de `App/`
-   - Modficar la url y colocar el tuyo en `lib/config.dart` 
+   - Modficar la url y colocar el tuyo en `lib/config.dart`
+   - Configurar la ruta flutter en tu IDE (Android Studio) -> Tools / SDK Manager / Flutter / Flutter SDK Path
    - Compilarlo usando tu IDE preferido
    - Verificar la conectividad con el sistema
     
