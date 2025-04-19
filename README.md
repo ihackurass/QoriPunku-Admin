@@ -5,7 +5,7 @@
 
 ## Visión General
 
-**QoriPunku Admin** es la aplicación de administración remota que complementa al sistema de control de acceso QoriPunku (SecureGate). Esta herramienta permite gestionar ciertos aspectos del sistema desde cualquier dispositivo, ofreciendo una interfaz intuitiva para monitorear visitantes, controlar permisos de acceso y configurar parámetros del sistema.
+**QoriPunku Admin** es la aplicación de administración remota que complementa al sistema de control de acceso [QoriPunku (SecureGate)](https://github.com/ihackurass/QoriPunku). Esta herramienta permite gestionar ciertos aspectos del sistema desde cualquier dispositivo, ofreciendo una interfaz intuitiva para monitorear visitantes, controlar permisos de acceso y configurar parámetros del sistema.
 
 ## Características Principales
 
