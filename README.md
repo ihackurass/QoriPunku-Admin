@@ -5,7 +5,7 @@
 
 ## Visión General
 
-**QoriPunku Admin** es la aplicación de administración remota que complementa al sistema de control de acceso QoriPunku (SecureGate). Esta herramienta permite gestionar todos los aspectos del sistema desde cualquier dispositivo, ofreciendo una interfaz intuitiva para monitorear visitantes, controlar permisos de acceso y configurar parámetros del sistema.
+**QoriPunku Admin** es la aplicación de administración remota que complementa al sistema de control de acceso QoriPunku (SecureGate). Esta herramienta permite gestionar ciertos aspectos del sistema desde cualquier dispositivo, ofreciendo una interfaz intuitiva para monitorear visitantes, controlar permisos de acceso y configurar parámetros del sistema.
 
 ## Características Principales
 
@@ -37,8 +37,6 @@ QoriPunku Admin cuenta con una interfaz moderna que facilita la gestión del sis
 
 Permite visualizar todas las fotografías capturadas por el sistema QoriPunku durante intentos de acceso no autorizados.
 
-- **Visualización Cronológica**: Ordenamiento por fecha y hora de los intentos de acceso
-- **Detalles de Acceso**: Información sobre UUID de tarjeta, estado de aprobación y timestamp
 - **Gestión de Registros**: Posibilidad de eliminar fotografías y registros no necesarios
 
 <div align="center">
@@ -51,7 +49,6 @@ Administra los permisos de las tarjetas RFID registradas en la base de datos del
 
 - **Listado de Tarjetas**: Visualización de todas las tarjetas RFID registradas
 - **Gestión de Permisos**: Otorgar o revocar acceso a tarjetas específicas
-- **Información Detallada**: Historial de uso por tarjeta y datos asociados
 
 <div align="center">
   <img src="Capturas/uuids.jpeg" width="45%" alt="Lista de Tarjetas" />
@@ -63,7 +60,6 @@ Permite modificar parámetros críticos del sistema QoriPunku sin necesidad de a
 
 - **Gestión de Administradores**: Actualización del número telefónico para notificaciones por WhatsApp
 - **Seguridad**: Cambio de contraseña para acceso al panel de configuración físico
-- **Parámetros de Sistema**: Ajuste de configuraciones generales y umbrales
 
 <div align="center">
   <img src="Capturas/configuracion.jpeg" width="45%" alt="Configuración General" />
@@ -73,8 +69,8 @@ Permite modificar parámetros críticos del sistema QoriPunku sin necesidad de a
 
 QoriPunku Admin sigue una arquitectura cliente-servidor:
 
-- **Cliente Flutter**: Aplicación multiplataforma desarrollada con Flutter y Dart
-- **Backend PHP**: API RESTful para la comunicación con la base de datos
+- **Cliente Flutter**: Aplicación multiplataforma desarrollada con Flutter
+- **Backend PHP**: API RESTFUL para la comunicación con la base de datos
 - **Base de Datos MySQL**: Almacenamiento centralizado compartido con el sistema principal QoriPunku
 
 La aplicación se comunica con el mismo servidor que utiliza el sistema QoriPunku, accediendo a la misma base de datos para mantener la coherencia de la información.
@@ -86,21 +82,22 @@ La aplicación se comunica con el mismo servidor que utiliza el sistema QoriPunk
    - Conexión a internet activa
    - Sistema QoriPunku correctamente configurado y operativo
 
-2. **Instalación de la Aplicación**
-   - Descargar el archivo APK desde la sección de releases
-   - Permitir la instalación desde fuentes desconocidas en el dispositivo
-   - Instalar la aplicación siguiendo las instrucciones en pantalla
-
-3. **Configuración Inicial**
-   - Abrir la aplicación e introducir la URL del servidor QoriPunku
-   - Ingresar las credenciales de administrador (usuario: admin, contraseña: 1234)
+2. **Configuración Inicial**
+   - Descargar el codigo fuente de `App/`
+   - Modficar la url y colocar el tuyo en `lib/config.dart` 
+   - Compilarlo usando tu IDE preferido
    - Verificar la conectividad con el sistema
+    
+3. **Instalación de la Aplicación**
+   - Permitir la instalación desde fuentes desconocidas en el dispositivo
+   - Ingresar las credenciales de administrador (usuario: admin, contraseña: 1234)
+
+
 
 ## Flujo de Trabajo
 
 1. **Monitoreo de Accesos**
-   - Revisar manualmente el historial de intentos de acceso
-   - El administrador puede revisar las fotografías y detalles en cualquier momento
+   - El administrador puede revisar las fotografías en cualquier momento
    - Se puede eliminar fotografías obsoletas o innecesarias
 
 2. **Gestión de Permisos**
