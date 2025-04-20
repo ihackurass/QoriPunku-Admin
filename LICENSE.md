@@ -9,9 +9,6 @@ Se concede permiso, sin costo alguno, a cualquier persona que obtenga una copia 
 ### 1. USO NO COMERCIAL
 Este software está destinado únicamente para uso personal, educativo y de investigación. Queda prohibida su utilización con fines comerciales o lucrativos sin autorización expresa por escrito del titular de los derechos.
 
-### 2. RESTRICCIONES DE PRESENTACIÓN
-Se prohíbe la presentación o demostración de este software a entidades empresariales o gubernamentales sin notificación previa al titular de los derechos y sin incluir la atribución correspondiente.
-
 ### 3. ATRIBUCIÓN OBLIGATORIA
 Cualquier uso, modificación o distribución de este software debe mantener intacto este aviso de licencia y otorgar el crédito apropiado al proyecto original "QoriPunku-Admin" mediante:
 - Mención clara del nombre del proyecto
